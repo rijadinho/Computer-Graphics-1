@@ -1,0 +1,8 @@
+﻿  task1a.cpp
+C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\task1a.cpp(87): error C3867: 'math::vector<float,3>::operator =': non-standard syntax; use '&' to create a pointer to member
+C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\task1a.cpp(87): error C2568: '=': unable to resolve function overload
+  C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\task1a.cpp(87): note: could be 'math::vector<float,3> &math::vector<float,3>::operator =(math::vector<float,3> &&)'
+  C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\task1a.cpp(87): note: or       'math::vector<float,3> &math::vector<float,3>::operator =(const math::vector<float,3> &)'
+  C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\task1a.cpp(87): note: or       'math::vector<float,3> &math::vector<float,3>::operator =(const math::vector<U,3> &)'
+C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\task1a.cpp(112): warning C4018: '<': signed/unsigned mismatch
+C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\task1a.cpp(115): warning C4018: '<': signed/unsigned mismatch

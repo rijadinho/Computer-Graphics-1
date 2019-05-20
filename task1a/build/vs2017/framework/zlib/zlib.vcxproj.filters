@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\dependencies\zlib\adler32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\dependencies\zlib\compress.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\dependencies\zlib\crc32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\dependencies\zlib\deflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\dependencies\zlib\infback.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\dependencies\zlib\inffast.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\dependencies\zlib\inflate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\dependencies\zlib\inftrees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\dependencies\zlib\trees.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\dependencies\zlib\uncompr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\dependencies\zlib\zutil.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\dependencies\zlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3CFDD92A-EF8F-3386-886B-5D6235FF4D41}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

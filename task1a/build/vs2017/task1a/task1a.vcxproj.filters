@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\task_builder.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\RayTracer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\Scene.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\Task.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\task1a.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\task_builder.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\RayTracer.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\Scene.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\Task.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\task1a\task1a.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\cmake\task1a\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{BD080D5F-6029-39C0-AB6A-83E44FC830B6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

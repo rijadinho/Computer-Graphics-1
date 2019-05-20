@@ -1,0 +1,60 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{E1285231-79A6-3D7D-BD8E-307F8ECF0E38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "framework", "framework", "{DD783CD3-665A-32D6-BE06-D0CA7CE456FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{300033CC-C6F1-321D-A96D-8828186062C9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF} = {C3180949-BB78-32D3-BAEB-6B354C77C7FF}
+		{79C8B71D-DA62-3428-8D9B-0C22446639E8} = {79C8B71D-DA62-3428-8D9B-0C22446639E8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "..\..\\ZERO_CHECK.vcxproj", "{C3180949-BB78-32D3-BAEB-6B354C77C7FF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpng", "libpng.vcxproj", "{79C8B71D-DA62-3428-8D9B-0C22446639E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF} = {C3180949-BB78-32D3-BAEB-6B354C77C7FF}
+		{6D0BF321-9661-3374-9C4A-1CB5E8A24C96} = {6D0BF321-9661-3374-9C4A-1CB5E8A24C96}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zlib", "..\zlib\zlib.vcxproj", "{6D0BF321-9661-3374-9C4A-1CB5E8A24C96}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF} = {C3180949-BB78-32D3-BAEB-6B354C77C7FF}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{300033CC-C6F1-321D-A96D-8828186062C9}.Release|Win32.ActiveCfg = Release|Win32
+		{300033CC-C6F1-321D-A96D-8828186062C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF}.Release|Win32.ActiveCfg = Release|Win32
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF}.Release|Win32.Build.0 = Release|Win32
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF}.Debug|Win32.Build.0 = Debug|Win32
+		{79C8B71D-DA62-3428-8D9B-0C22446639E8}.Release|Win32.ActiveCfg = Release|Win32
+		{79C8B71D-DA62-3428-8D9B-0C22446639E8}.Release|Win32.Build.0 = Release|Win32
+		{79C8B71D-DA62-3428-8D9B-0C22446639E8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{79C8B71D-DA62-3428-8D9B-0C22446639E8}.Debug|Win32.Build.0 = Debug|Win32
+		{6D0BF321-9661-3374-9C4A-1CB5E8A24C96}.Release|Win32.ActiveCfg = Release|Win32
+		{6D0BF321-9661-3374-9C4A-1CB5E8A24C96}.Release|Win32.Build.0 = Release|Win32
+		{6D0BF321-9661-3374-9C4A-1CB5E8A24C96}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D0BF321-9661-3374-9C4A-1CB5E8A24C96}.Debug|Win32.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{300033CC-C6F1-321D-A96D-8828186062C9} = {E1285231-79A6-3D7D-BD8E-307F8ECF0E38}
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF} = {E1285231-79A6-3D7D-BD8E-307F8ECF0E38}
+		{79C8B71D-DA62-3428-8D9B-0C22446639E8} = {DD783CD3-665A-32D6-BE06-D0CA7CE456FA}
+		{6D0BF321-9661-3374-9C4A-1CB5E8A24C96} = {DD783CD3-665A-32D6-BE06-D0CA7CE456FA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5FFC1F8C-7394-3427-8760-2259D4DA8758}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

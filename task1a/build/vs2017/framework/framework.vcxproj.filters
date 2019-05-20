@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\utils\argparse.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\png.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\pfm.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\config.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\math\math.h">
+      <Filter>source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\math\vector.h">
+      <Filter>source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\math\matrix.h">
+      <Filter>source\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\utils\argparse.h">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\utils\color.h">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\utils\io.h">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\color.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\image.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\png.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\pfm.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\rgba8.h">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\source\framework\config.h">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\rijadinho\Desktop\TUG\SS 19\Computer Graphic 1\computer-graphics-1-task1a-01231648\build\cmake\framework\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{BD080D5F-6029-39C0-AB6A-83E44FC830B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\math">
+      <UniqueIdentifier>{898DAE9C-1C4F-33EB-84C5-58CD3BB7200B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils">
+      <UniqueIdentifier>{31FD4E1E-092B-3496-8AE3-8CBFEFAF04E0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CMakePredefinedTargets", "CMakePredefinedTargets", "{E1285231-79A6-3D7D-BD8E-307F8ECF0E38}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ALL_BUILD", "ALL_BUILD.vcxproj", "{300033CC-C6F1-321D-A96D-8828186062C9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF} = {C3180949-BB78-32D3-BAEB-6B354C77C7FF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ZERO_CHECK", "..\..\\ZERO_CHECK.vcxproj", "{C3180949-BB78-32D3-BAEB-6B354C77C7FF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|Win32 = Release|Win32
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{300033CC-C6F1-321D-A96D-8828186062C9}.Release|Win32.ActiveCfg = Release|Win32
+		{300033CC-C6F1-321D-A96D-8828186062C9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF}.Release|Win32.ActiveCfg = Release|Win32
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF}.Release|Win32.Build.0 = Release|Win32
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF}.Debug|Win32.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{300033CC-C6F1-321D-A96D-8828186062C9} = {E1285231-79A6-3D7D-BD8E-307F8ECF0E38}
+		{C3180949-BB78-32D3-BAEB-6B354C77C7FF} = {E1285231-79A6-3D7D-BD8E-307F8ECF0E38}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E89B5425-84B0-36ED-964D-155F24073345}
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
